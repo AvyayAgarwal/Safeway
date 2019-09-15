@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SafeWay</string>
+    <string name="title_activity_maps">SafeWay</string>
+    <string name="google_maps_key">AIzaSyA_i6RFp8R8W_KMTVDvKXPD4zAuCRvsBPM</string>
+    <string name="title_location_permission">LocationPermission</string>
+    <string name="text_location_permission">NeedLocationToGenerateRoutes</string>
+    <string name="ok">Yes</string>
+</resources>

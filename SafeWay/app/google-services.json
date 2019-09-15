@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "121655691819",
+    "firebase_url": "https://safeway-1568441651672.firebaseio.com",
+    "project_id": "safeway-1568441651672",
+    "storage_bucket": "safeway-1568441651672.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121655691819:android:38f052585460785bd1f86e",
+        "android_client_info": {
+          "package_name": "com.example.safeway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121655691819-cjct27gj394dgbgntjebq4v5759k5lj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbuSQTeQewJkjTWBpD1brxsqjiO4Ih4d0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121655691819-cjct27gj394dgbgntjebq4v5759k5lj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

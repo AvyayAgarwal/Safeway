@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<fragment
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    tools:context=".MapsActivity" />
+
+
+    <EditText
+        android:id="@+id/plain_origin_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Origin"
+        android:textCursorDrawable="@android:color/holo_blue_dark"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/plain_destination_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+
+        android:textCursorDrawable="@android:color/holo_blue_dark"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:inputType="text" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:id="@+id/btnGetDirection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Go!"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/btnSOS"
+        android:onClick="sos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="SOS" />
+
+</LinearLayout>
