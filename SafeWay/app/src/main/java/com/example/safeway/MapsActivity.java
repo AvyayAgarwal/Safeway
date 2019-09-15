@@ -206,8 +206,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mUiSettings.setMapToolbarEnabled(true);
         //isWriteStoragePermissionGranted();
         //isReadStoragePermissionGranted();
+        checkLocationPermission();
         mUiSettings.setMyLocationButtonEnabled(true);
-//        Log.d(TAG, "0000000000ddddebug");
         //setUpClusterer();
         addHeatMap();
 
@@ -219,9 +219,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     }
 
-    public  boolean isReadStoragePermissionGranted() {
+    public  boolean checkLocationPermission() {
         if (Build.VERSION.SDK_INT >= 23) {
-            if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
+            if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION)
                     == PackageManager.PERMISSION_GRANTED) {
                 Log.v(TAG,"Permission is granted1");
                 //setUpClusterer();
@@ -229,7 +229,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             } else {
 
                 Log.v(TAG,"Permission is revoked1");
-                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 3);
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 3);
                 return false;
             }
         }
