@@ -3,7 +3,7 @@
 Project build as part of Hack The North 2019 at the University of Waterloo.
 
 ## Use Cases
-This project is aimed towards increasing safety for people while they are out and about. Leveraging the Toronto Police datesets on criminal reports over the past four years, we aim to provide the following features to users:
+Safeway is an Android application that is aimed towards increasing safety for people while they are out and about. Leveraging the Toronto Police datesets on criminal reports over the past four years, we aim to provide the following features to users:
 
 1. Map out all the criminal data for users to easily understand and analyze
 2. Navigation from Point A to Point B by mapping out the safest route based on crime data
